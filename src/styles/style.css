@@ -1,0 +1,137 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  color: white;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.7);
+}
+
+.App {
+  background-image: linear-gradient(to bottom right, #020c19, #4c2d94);
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 15px;
+}
+
+.content {
+  display: flex;
+  width: 360px;
+  height: 400px;
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: 20px;
+  align-items: center;
+  text-align: center;
+  font-size: 18px;
+  background-color: rgba(115, 75, 209, 0.4);
+  backdrop-filter: blur(3px);
+  padding: 40px 15px;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  border-radius: 10px;
+  box-shadow: 0 3px 5px rgba(0, 0, 0, 0.3);
+}
+
+.content span {
+  font-weight: 400;
+  font-size: 15px;
+}
+
+.content input {
+  padding: 5px;
+  border-radius: 5px;
+  border: 1.5px solid rgba(0, 0, 0, 0.4);
+  background-color: rgba(145, 98, 255, 0.3);
+  font-size: 15px;
+  font-weight: 650;
+  text-shadow: none;
+}
+
+.content button {
+  padding: 10px 15px;
+  font-size: 20px;
+  border-radius: 5px;
+  border: 1px solid rgba(0, 0, 0, 0.4);
+  background-color: #9162ff;
+  text-shadow: none;
+  font-weight: 600;
+  text-shadow: 1px 2px 2px rgba(0, 0, 0, 0.7);
+  cursor: pointer;
+  transition: all ease-in-out 0.2s;
+}
+
+.content button:hover {
+  transform: translateY(-3px);
+}
+
+.content-images {
+  position: relative;
+  width: 80%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+}
+
+#cartoon-image {
+  position: absolute;
+  width: 30%;
+  right: 0px;
+  bottom: 0px;
+  pointer-events: none;
+}
+
+.input-value,
+.result-value {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  font-size: 20px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.4);
+}
+
+.result-value {
+  padding: 10px;
+  border-radius: 10px;
+  border: 2px dashed rgb(145, 98, 255);
+}
+
+.result-value span{
+  font-size: 15px;
+  font-weight: 600;
+}
+
+@media screen and (max-width: 400px) {
+  .content {
+    justify-content: space-around;
+  }
+  .content-images {
+    width: 100%;
+  }
+
+  #cartoon-image {
+    width: 100px;
+    right: 25px;
+  }
+
+  .input-value {
+    display: flex;
+    flex-direction: column;
+    min-width: 200px;
+  }
+
+  .content {
+    padding: 30px 15px;
+  }
+
+  .content button {
+    padding: 10px;
+    font-size: 15px;
+    border-radius: 5px;
+    border: 1px solid rgba(0, 0, 0, 0.4);
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.9);
+  }
+}

@@ -20,7 +20,8 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "start-flask-api": "cd api && ./ENV/Scripts/activate && python app.py"
   },
   "eslintConfig": {
     "extends": [
