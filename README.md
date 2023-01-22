@@ -23,7 +23,7 @@ For the backend server
 
 
 ##### `.\ENV\Scripts\activate`
-### `python app.py`
+#### `python app.py`
 To start backend virtual environment
 
 
