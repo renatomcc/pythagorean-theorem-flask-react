@@ -6,8 +6,11 @@ Follow the tutorial to run the project.
 
 #### `Run Terminal`
 
+
+
 #### `npm i`
 For all the dependencies installation
+
 
 
 #### `cd api`
@@ -17,10 +20,15 @@ For all the dependencies installation
 #### `pip install flask-cors`
 For the backend server
 
+
+
 ##### `.\ENV\Scripts\activate`
 ### `python app.py`
 To start backend virtual environment
 
 
+
 ##### `npm start` on main folder
 To start React App 
+
+You are ready to calculate! :) 
