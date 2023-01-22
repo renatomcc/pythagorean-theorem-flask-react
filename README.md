@@ -1,4 +1,6 @@
-# Starting the project
+# Pythagorean Theorem with ReactJS and Flask 
+
+######Starting the project
 
 This project was created using Flask and ReactJS, to run this project you must have node, python and pip already installed in your machine.
 
