@@ -6,7 +6,12 @@ This project was created using Flask and ReactJS
 For all the dependencies installation
 
 
-### `cd api`
+## `cd api`
+## `pip install virtualenv`
+## `virtualenv ENV`
+## `pip install flask`
+## `pip install flask-cors`
+
 ### `.\ENV\Scripts\activate`
 ### `python app.py`
 To start backend virtual environment
