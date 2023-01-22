@@ -32,3 +32,6 @@ To start backend virtual environment
 To start React App 
 
 You are ready to calculate! :) 
+
+Preview:
+![Project Gif](https://github.com/renatomcc/pythagorean-theorem-flask-react/blob/main/public/Pythagoras%20Project.gif)
